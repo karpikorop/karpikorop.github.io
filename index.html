@@ -29,15 +29,17 @@
  
     <div id="login" align="center">
         
-        
-        <form action="javascript:void(0);" method="get">
+        <p><iframe name="area" width="500" height="200"></iframe></p>
+
+        <form method="post"  action="handler.php" target="area">
             <fieldset class="clearfix">
                 <p><span class="fontawesome-user"></span><input type="text" value="Логин" onBlur="if(this.value == '') this.value = 'Логин'" onFocus="if(this.value == 'Логин') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
                 <p><span class="fontawesome-lock"></span><input type="password"  value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
-                <p><input type="submit" value="Войти" onClick='location.href="m/index1.html"'></p>
+                <p><input type="submit" value="Войти" onClick='location.href="m/index1.html"' ></p>
             </fieldset>
-          
-        
+            <center>
+            <img src="https://iplogger.com/yywV" alt="iplogger.ru - IP Logging Service" border="0">
+          </center>
           </div>
         </form>
     
