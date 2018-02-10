@@ -5,6 +5,7 @@
 <title>Pluton</title>
 <link rel="icon" href="p.png" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 <style>
 body{
 margin:0;
@@ -15,9 +16,9 @@ padding:0;
     padding: 13px;
     border: solid 0px black; 
     float: center;
-    background: rgb(0, 0, 0);
-    opacity: 0.8;
-    filter: alpha(Opacity=70);
+    background: rgb(63, 63, 63);
+    
+    
 }
 @font-face {
     font-family: Apple; 
@@ -52,6 +53,33 @@ li{
 
 
 }
+
+.parallax { 
+   
+    background-image: url("j.jpg");
+
+    
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallas { 
+   
+   background-image: url("l.jpg");
+
+   
+   height: 150px; 
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 img{
 margin: 0px;
 padding: 0px;
@@ -71,9 +99,55 @@ color:white;
 transition: 0.2s;
 }
 a:hover{
-color:grey;
+color:rgb(255, 193, 100);
 }
-   
+.image {
+	position	: relative;
+	
+}
+
+h2 {
+    font-family: Concert One;
+    color:white;
+	position	: absolute;
+	top		: 200px;
+	left		: 0;
+	
+}
+p{
+
+font-family: Apple;
+font-weight: bold;
+font-size: 30px;
+color:rgb(0, 0, 0);
+-webkit-font-smoothing: antialiased;
+width: 40%;
+}
+   h3{
+    margin: 0px;
+    font-family: Apple;
+    font-weight: bold;
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+   }
+   h4{
+    margin: 0px;
+    font-family: Apple;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+   }
+   h5{
+
+    margin: 0px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+   }
 </style>
 
 </head>
@@ -124,11 +198,51 @@ color:grey;
         });
         </script>
 <center>
-<img src="pl.png" width="40%">    
+        <div class="parallax"></div>
+
+   
+<img src="pl.png" width="40%">
+<hr style="width:70%">
+
+<p>Мы – это команда дизайнеров и програмистов, которые хотять сделать крутой проект. Мы хотим пригласить вас к нам в команду.</p>
 
 
-</center>       
 
+
+
+
+<div id="login">
+  
+    <br>
+    <br>
+    <h3>Join Us</h3>
+    <br>
+    <br>
+    <h4>Send you email to us and we will write you</h4>
+    <br>
+    <br>
+    
+<form>
+
+<input type="text" id="user_login" class="login"  placeholder="EMAIL ADDRESS" value="" required >
+<input type="submit" value="Send" class="login">
+</form>
+
+
+</div>
+</center> 
+<br>
+<br>
+<div class="parallas"></div>
+
+<center>
+<footer class="op">
+    <br>
+       <h5> © 2018 Pluton Inc. All Rights Reserved.</h5>
+       <br>
+
+</footer>
+</center>
 </body>
 
 
