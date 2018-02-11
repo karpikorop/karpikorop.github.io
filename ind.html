@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Pluton</title>
-<link rel="icon" href="p.png" type="image/x-icon">
+<link rel="icon" href="i.png" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 <style>
 body{
@@ -42,8 +42,34 @@ li{
     font-synthesis: none;
     -webkit-font-feature-settings: 'kern';
 }
+.parallax { 
+   
+    background-image: url("h.jpg");
+
+    
+    height:40%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallas { 
+   
+   background-image: url("bf.jpg");
+
+   
+   height:40%;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 .lar{
-    background:url(p.png) no-repeat left center; 
+    background:url(i.png) no-repeat left center; 
     background-size: 20px; 
     display:inline-block;
     vertical-align:bottom;
@@ -67,18 +93,34 @@ padding: 0px;
 a{
 text-decoration:none;
 color:white;
-transition: 0.2s;
+transition: 0.3s;
 }
 h1>a{
     color: black;
+    
 }
 a:hover{
 color:rgb(255, 193, 100);
+font-size: 30px;
 }
    h1{
     font-family: Concert One;
     font-size: 60px;
     color:rgb(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+   }
+   h6{
+       margin: 0; 
+    font-family: Concert One;
+    font-size: 80px;
+    color:rgb(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+   }
+   h5{
+       margin: 0; 
+    font-family: Arial;
+    
+    color:rgb(255, 255, 255);
     -webkit-font-smoothing: antialiased;
    }
    p{
@@ -100,10 +142,10 @@ color:rgb(255, 193, 100);
 <ul class="op">
         
 <li><a href="index.html"class="lar">Pluton</a></li>
-<li><a href="#">Projects</a></li>
+<li><a href="pro.html">Projects</a></li>
 <li><a href="#">Games</a></li>
-<li><a href="#">Support</a></li>
-<li><a href="#">About Us</a></li>
+<li><a href="sup.html">Support</a></li>
+<li><a href="about.html">About Us</a></li>
 
 
 
@@ -138,10 +180,16 @@ color:rgb(255, 193, 100);
          
         });
         </script>
+        
 <center>
+      <br>
+      <br>
+      <br>
+    <h6>Games</h6>
     <br>
     <br>
     <br>
+    <div class="parallax"></div>
     <br>
     <br>
     <br>
@@ -152,7 +200,7 @@ color:rgb(255, 193, 100);
 <br>
 <br>
 <br>
-<hr style="width:70%">
+<div class="parallas"></div>
 <br>
 <br>
 <h1>Spinner Simulator</h1>
@@ -160,5 +208,13 @@ color:rgb(255, 193, 100);
 <p style="width: 50%">In this game you can swipe spinner and collect.</p>
 <h1 style="font-size: 40px;"><a href="https://play.google.com/store/apps/details?id=com.danylo.minko&hl=ru" target="_bold">Download</a></h1>
 
-</center>       
+</center>    
+<center>
+        <footer class="op">
+            <br>
+               <h5> © 2018 Pluton Inc. All Rights Reserved.</h5>
+               <br>
+        
+        </footer>
+        </center>   
 </body>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Pluton</title>
-<link rel="icon" href="p.png" type="image/x-icon">
+<link rel="icon" href="i.png" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <style>
@@ -17,8 +17,6 @@ padding:0;
     border: solid 0px black; 
     float: center;
     background: rgb(63, 63, 63);
-    
-    
 }
 @font-face {
     font-family: Apple; 
@@ -45,7 +43,7 @@ li{
     -webkit-font-feature-settings: 'kern';
 }
 .lar{
-    background:url(p.png) no-repeat left center; 
+    background:url(i.png) no-repeat left center; 
     background-size: 20px; 
     display:inline-block;
     vertical-align:bottom;
@@ -59,7 +57,7 @@ li{
     background-image: url("j.jpg");
 
     
-    height: 700px; 
+    height:70%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -73,6 +71,7 @@ li{
 
    
    height: 150px; 
+   width: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -96,22 +95,23 @@ padding: 0px;
 li>a{
 text-decoration:none;
 color:white;
-transition: 0.2s;
+transition: 0.3s;
 }
 a:hover{
 color:rgb(255, 193, 100);
+font-size: 20px;
 }
 .image {
-	position	: relative;
+	position: relative;
 	
 }
 
 h2 {
     font-family: Concert One;
     color:white;
-	position	: absolute;
-	top		: 200px;
-	left		: 0;
+	position: absolute;
+	top	: 200px;
+	left: 0;
 	
 }
 p{
@@ -148,6 +148,7 @@ width: 40%;
     color:rgb(255, 255, 255);
     -webkit-font-smoothing: antialiased;
    }
+
 </style>
 
 </head>
@@ -159,10 +160,10 @@ width: 40%;
 <ul class="op">
         
 <li><a href="#"class="lar">Pluton</a></li>
-<li><a href="#">Projects</a></li>
+<li><a href="pro.html">Projects</a></li>
 <li><a href="ind.html">Games</a></li>
-<li><a href="#">Support</a></li>
-<li><a href="#">About Us</a></li>
+<li><a href="sup.html">Support</a></li>
+<li><a href="about.html">About Us</a></li>
 
 
 
@@ -173,8 +174,8 @@ width: 40%;
 </nav> 
 
 <script>
-        var h_hght = -15; // высота шапки
-        var h_mrg = 0;    // отступ когда шапка уже не видна
+        var h_hght = -15; 
+        var h_mrg = 0;    
                          
         $(function(){
          
@@ -204,7 +205,7 @@ width: 40%;
 <img src="pl.png" width="40%">
 <hr style="width:70%">
 
-<p>Мы – это команда дизайнеров и програмистов, которые хотять сделать крутой проект. Мы хотим пригласить вас к нам в команду.</p>
+<p>Мы – это команда дизайнеров и програмистов, которые хотять сделать крутой проэкт Хотим пригласить вас к нам в команду.</p>
 
 
 
@@ -222,9 +223,9 @@ width: 40%;
     <br>
     <br>
     
-<form>
+<form method="POST">
 
-<input type="text" id="user_login" class="login"  placeholder="EMAIL ADDRESS" value="" required >
+<input type="email" id="user_login" class="login"  placeholder="EMAIL ADDRESS" value="" name="epal" required >
 <input type="submit" value="Send" class="login">
 </form>
 
